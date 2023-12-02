@@ -1,5 +1,7 @@
 # Spring Boot Maven GitHub Actions
 
+![maven workflow](https://github.com/kenfj/springboot-maven-actions/actions/workflows/maven.yml/badge.svg)
+
 Spring Boot Maven GitHub Actions hello world example
 
 ## Version Check
