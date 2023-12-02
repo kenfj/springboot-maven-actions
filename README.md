@@ -21,6 +21,12 @@ mvn test
 
 # start server
 mvn spring-boot:run
+
+curl "http://localhost:8080/greeting?name=foo"
+
+# Build an executable JAR
+./mvnw clean package
+java -jar target/demo-0.0.1-SNAPSHOT.jar
 ```
 
 ## Setup Project from Initializr
